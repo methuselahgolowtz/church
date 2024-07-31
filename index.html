@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-Q85xgzayqnC7Np7GxxCNqO4lWAF-wYyFHq acoEO8RLsCgTAes8gRC1gyvgyjtqQxAXjEYHLclCORNJH2cXcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="boostrap/css/bootstrap-reboot.css">
+<link rel="stylesheet" href="boostrap/css/bootstrap-grid.css">
+<link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5909496078492938"
+     crossorigin="anonymous"></script>
+    <title>Tucasa | Cive | home|page</title>
+</head>
+
+<style>
+    body{
+        font-size: 20px;
+    }
+#navigation-bar{
+display: inline-flex;
+/*flex-wrap: wrap;*/
+background: #dd6731;
+height: 120px;
+box-shadow: 2px 4px 8px #000;
+}
+#main{
+    width: 100vw;
+}
+.logo{
+    width: 30vw;
+    margin-left: 5px;
+    display: inline-flex;
+}
+.logo i img{
+    /* background-color: rgb(10, 1, 19); */
+    margin-left: 12px;
+    border-radius: 12px;
+    box-shadow: 1px 2px 3px black;
+    /* margin-bottom: 20px; */
+}
+.logo p{
+    margin-top: 10px;
+}
+.navs{
+    width: 70vw;
+    /* background-color: #d3551b; */
+    color: #000;
+}
+.navs a,li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    color: #000;
+}
+.navs a li{
+    margin: 10px;
+    transition: 0.5s;
+    padding: 5px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 8px black;
+}
+.navs a{
+    border-radius: 12px;
+    margin-left: 10px;
+}
+.navs a li:hover{
+    color: #fff;
+}
+ /* line of fonts */
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  margin: 10px;
+}
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* //end of line of fonts/ */
+
+@media screen and (min-width: 700px) {
+    .logo{
+    width: 40vw; 
+}
+.navs{
+    width: 60vw;
+}
+/* .maelezo{
+    /* font-size: 18px; */
+    /* background-color: blue; */
+/* }  */
+}
+
+@media screen and (max-width: 700px) {
+    .logo{
+    width: 40vw;
+}
+.navs{
+    width: 60vw;
+}
+.navs  ul a li{
+    display: inline-block;
+    background-color: #d3551b;
+}
+.navs a li{
+    /* display: none; */
+}
+.hidden{
+    display: none;
+}
+
+}
+@media screen and (max-width: 300px) {
+    .logo{
+    width: 50vw;
+}
+.navs{
+    width: 50vw;
+}
+#navigation-bar{
+height: 120px;
+}
+.navs  ul li{
+    display: inline-block;
+}
+}
+/* //site for the dashboard */
+.dashboard{
+    animation: colorChange 10s infinite alternate; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+	left: 0;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	display: flex;
+
+
+    color: #fff;
+    width: 100%;
+    height: 350px;
+}
+
+/* //moto */
+.moto{
+    /* background: blue; */
+    width: 100vw;
+    text-align: center;
+}
+.heading{
+    margin-top: 30px;
+}
+@media screen and (min-width: 700px) {
+.motos{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.sub-footer{
+    width: 100vw;
+    height: 300px;
+    background-color: grey;
+    padding-top: 10px;
+    display: inline-flex;
+    text-align: center;
+}
+.img{
+    margin: 5px;
+    /* background-color: blue; */
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+}
+.sub-footer{
+    width: 100vw;
+    background-color: rgb(218, 218, 218);
+    padding-top: 10px;
+    text-align: center;
+    height: 330px;
+}
+}
+.maelezo{
+    margin: 20px;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    /* height: 350px; */
+    box-shadow: 1px 2px 3px black;
+}
+.maelezo h4{
+    color: rgb(241, 144, 92);
+  
+}
+.sub-footer{
+    width: 100vw;
+    background-color: rgb(218, 218, 218);
+    padding-top: 10px;
+    text-align: center;
+    /* height: 330px; */
+}
+.btn{
+    border: 1px solid none;
+    background-color: rgb(221, 97, 31);
+    box-shadow: 2px 4px 8px;
+    border-radius: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+}
+.btn a {
+    text-decoration: none;
+    color: black;
+
+}
+.about-us{
+    margin: 10px;
+}
+@keyframes colorChange {
+  0% { background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/sda.jpg);
+    animation: colorChange 3s infinite alternate; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; }  
+  33% { background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/worship.jpg);
+    animation: colorChange 3s infinite alternate; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; } 
+  66% {background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/abt2.jpg);
+    animation: colorChange 3s infinite alternate; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; }
+  100% { background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/about.jpg);
+    animation: colorChange 3s infinite alternate; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;} 
+}
+
+.color-changing-element {
+  animation: colorChange 3s infinite alternate; /* Animation properties */
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;  /* Center the element horizontally */
+}
+.sub2-div{
+    background-color: #f3976d;
+    width: 100vw;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5px; */
+    display: inline-flex;
+}
+.get h1{
+    font-size: 50px;
+}
+.get a{
+    font-size: 30px;
+    color: #fff;
+    box-shadow: 2px 4px 8px black;
+}
+.get p{
+    font-size: 25px;
+}
+.footer{
+    background-color: #fff;
+    font-size: 18px;
+    /* width: 100vw; */
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5px; */
+    display: inline-flex;
+}
+.icons_footer {
+    margin-top: 20px;
+}
+.icons_footer i{
+    margin: 5px;
+}
+</style>
+<body class="poppins-light ">
+
+    <div class="" id="main">
+    <nav class="" id="navigation-bar">
+        <div class="logo pt-3 my-3">
+            <p class="text-uppercase container ">Tucasa Cive</p>
+        </div>
+        <ul class="navs pt-3 my-3">
+            <a href="#" class="text-uppercase"><li>home</li></a>
+            <a href="#" class="text-uppercase" id="hidden"><li>about</li></a>
+            <a href="#" class="text-uppercase"><li>events</li></a>
+            <a href="#" class="text-uppercase"><li>blogs</li></a>
+        </ul>
+    </nav>
+    </div>
+
+    <div class="dashboard"
+    style="display: block;">
+     <h1>UNLEASHING THE POTENTIAL <br> OF STUDENT UNITY</h1>   
+ <div>
+    <a href="" class="none_dsply btn">about</a>
+ </div>
+    </div>
+
+    <!-- //another div for loved blessed  -->
+    <div class="moto">
+        <div class="heading text-uppercase">
+           <h2>
+            We are Loved, Valued and Blessed
+           </h2>
+        </div>
+
+        <div class="motos container">
+            <div class="maelezo">
+<h4>Loved</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer 
+    adipisc- ing elit, sed diam nonum- my nibh
+     euismod tincidunt ut laoreet dolore magna
+     ali- quam erat volutpat. Ut wisi enim ad 
+     minim veniam,</p>
+            </div>
+            <div class="maelezo">
+<h4>Valued</h4>
+<p>Lorem ipsum dolor sit amet,
+     consectetuer adipi- scing elit,
+      sed diam nonum- my nibh euismod 
+      tincidunt ut laoreet dolore magna 
+    ali- quam erat volutpat. Ut wisi 
+    enim ad minim veniam,</p>
+            </div>
+            <div class="maelezo">
+<h4>Blessed</h4>
+<p>Lorem ipsum dolor sit amet, 
+    consectetuer adipi- scing elit, 
+    sed diam nonum- my nibh euismod tincidunt 
+    ut laoreet dolore magna 
+    ali- quam erat volutpat. Ut wisi enim ad minim veniam,</p>
+            </div>
+        </div>     
+    </div>
+    
+    <!-- //sub footer -->
+<div class="sub-footer">
+    <div class="about-us">
+        <h4> About-Us</h4>
+
+        <p> Lorem ipsum dolor sit amet,
+     consectetuer adipi- scing elit,
+      sed diam nonum- my nibh euismod 
+      tincidunt ut laoreet dolore magna 
+    ali- quam erat volutpat. Ut wisi 
+    enim ad minim veniam,
+        </p>
+<div class="btn">
+    <a href="#">More</a>
+    </div>
+
+    </div>
+    <div class="img">
+           <img src="pictures/about.jpg" alt="no-connection" width="270px" height="270px">
+    </div>
+</div>
+
+<!-- //another for get involved -->
+<div class="sub2-div">
+    <div class="get">
+        <h1>
+            GET INVOLVED
+        </h1>
+        <p>
+            BIBLE STUDY. PRAYER. SHARING
+        </p>
+        <a href="#" class="btn"> 
+            EXPLORE
+     
+        </a>
+    
+    </div>
+</div>
+
+<!-- //real footer  -->
+<div class="footer container">
+    <div class="icons_footer">
+        <h4>Follow us</h4>
+        <i>
+            <img src="pictures/facebook.jpg" width="50px" height="50px">
+            <img src="pictures/instagram.jpg" width="50px" height="50px">
+        </i>
+<h4>TUCASA CIVE. ALL RIGHT RESERVED. <br> 2024</h4>
+    </div>
+    <div class="related">
+        <h4>RELATED SITE LINKS</h4>
+        <h4>TUCASASTU</h4>
+        <h4>TUCASACTF</h4>
+        <h4>ADVENTIST CHURCH</h4>
+    </div>
+  
+
+</div>
+
+
+</body>
+</html>
